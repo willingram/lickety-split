@@ -116,6 +116,13 @@
 					"IAMPrefix": "954538709551"
 				}
 			}
+		},
+		"hostingS3AndCloudFront": {
+			"Type": "AWS::CloudFormation::Stack",
+			"Properties": {
+				"TemplateURL": "https://s3.amazonaws.com/licketysplit-20181010173413-deployment/amplify-cfn-templates/hosting/template.json",
+				"Parameters": {}
+			}
 		}
 	},
 	"Outputs": {
