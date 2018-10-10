@@ -14,13 +14,34 @@
 	"auth": {
 		"cognito46a86dcd": {
 			"service": "Cognito",
-			"providerPlugin": "awscloudformation"
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/licketysplit-20181010173413-deployment/amplify-cfn-templates/auth/cognito46a86dcd-cloudformation-template.yml",
+				"logicalId": "authcognito46a86dcd"
+			},
+			"lastPushTimeStamp": "2018-10-10T17:50:57.181Z",
+			"output": {
+				"IdentityPoolId": "us-east-1:1ed9300d-a962-4322-8736-67fdc37b0fdb",
+				"IdentityPoolName": "licketysplit_identitypool_80c97a70"
+			},
+			"lastPushDirHash": "3sgQgP6b7DKd6p392OUuubTIWx4="
 		}
 	},
 	"analytics": {
 		"licketysplit": {
 			"service": "Pinpoint",
-			"providerPlugin": "awscloudformation"
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/licketysplit-20181010173413-deployment/amplify-cfn-templates/analytics/pinpoint-cloudformation-template.json",
+				"logicalId": "analyticslicketysplit"
+			},
+			"lastPushTimeStamp": "2018-10-10T17:50:57.181Z",
+			"output": {
+				"appName": "licketysplit",
+				"Region": "us-east-1",
+				"Id": "3460da9e6b524e188034f2e37740f2de"
+			},
+			"lastPushDirHash": "37Xx2tfOJ86wBW4d3Tl1WHL0TXo="
 		}
 	}
 }

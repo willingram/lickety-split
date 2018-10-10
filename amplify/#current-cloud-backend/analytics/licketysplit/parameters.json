@@ -1,0 +1,11 @@
+{
+    "appName": "licketysplit",
+    "roleName": "pinpointLambdaRolee52ab13f",
+    "cloudWatchPolicyName": "cloudWatchPolicye52ab13f",
+    "pinpointPolicyName": "pinpointPolicye52ab13f",
+    "authPolicyName": "pinpoint_amplify_e52ab13f",
+    "unauthPolicyName": "pinpoint_amplify_e52ab13f",
+    "authRoleName": "licketysplit-20181010173413-authRole",
+    "unauthRoleName": "licketysplit-20181010173413-unauthRole",
+    "IAMPrefix": "954538709551"
+}
