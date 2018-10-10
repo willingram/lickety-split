@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "licketysplit-20181010173413-authRole",
+            "UnauthRoleArn": "arn:aws:iam::954538709551:role/licketysplit-20181010173413-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::954538709551:role/licketysplit-20181010173413-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "licketysplit-20181010173413-deployment",
+            "UnauthRoleName": "licketysplit-20181010173413-unauthRole",
+            "StackName": "licketysplit-20181010173413",
+            "StackId": "arn:aws:cloudformation:us-east-1:954538709551:stack/licketysplit-20181010173413/b73db640-ccb2-11e8-bb66-50fae9e50c9a"
+        }
+    }
+}
