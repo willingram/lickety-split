@@ -1,7 +1,7 @@
 {
     "AppSyncApiName": "licketysplit",
-    "schemaGraphql": "s3://licketysplit-20181010173413-deployment/amplify-appsync-files/schema.graphql.1539269439374",
+    "schemaGraphql": "s3://licketysplit-20181010173413-deployment/amplify-appsync-files/schema.graphql.1539285941994",
     "ResolverBucket": "licketysplit-20181010173413-deployment",
     "ResolverRootKey": "amplify-appsync-files",
-    "DeploymentTimestamp": "1539269439374"
+    "DeploymentTimestamp": "1539285941994"
 }

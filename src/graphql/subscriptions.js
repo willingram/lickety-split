@@ -6,6 +6,7 @@ export const onCreateTodo = `subscription OnCreateTodo {
     id
     name
     description
+    newProp
   }
 }
 `;
@@ -14,6 +15,7 @@ export const onUpdateTodo = `subscription OnUpdateTodo {
     id
     name
     description
+    newProp
   }
 }
 `;
@@ -22,6 +24,7 @@ export const onDeleteTodo = `subscription OnDeleteTodo {
     id
     name
     description
+    newProp
   }
 }
 `;

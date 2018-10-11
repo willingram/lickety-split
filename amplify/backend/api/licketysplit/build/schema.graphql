@@ -2,6 +2,7 @@ type Todo {
   id: ID!
   name: String!
   description: String
+  newProp: String
 }
 
 enum ModelSortDirection {
@@ -73,6 +74,7 @@ input ModelTodoFilterInput {
   id: ModelIDFilterInput
   name: ModelStringFilterInput
   description: ModelStringFilterInput
+  newProp: ModelStringFilterInput
   and: [ModelTodoFilterInput]
   or: [ModelTodoFilterInput]
   not: ModelTodoFilterInput
@@ -86,12 +88,14 @@ type Query {
 input CreateTodoInput {
   name: String!
   description: String
+  newProp: String
 }
 
 input UpdateTodoInput {
   id: ID!
   name: String
   description: String
+  newProp: String
 }
 
 input DeleteTodoInput {

@@ -19,7 +19,7 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/licketysplit-20181010173413-deployment/amplify-cfn-templates/auth/cognito46a86dcd-cloudformation-template.yml",
 				"logicalId": "authcognito46a86dcd"
 			},
-			"lastPushTimeStamp": "2018-10-11T14:54:12.574Z",
+			"lastPushTimeStamp": "2018-10-11T19:27:56.228Z",
 			"output": {
 				"IdentityPoolId": "us-east-1:1ed9300d-a962-4322-8736-67fdc37b0fdb",
 				"IdentityPoolName": "licketysplit_identitypool_80c97a70"
@@ -35,7 +35,7 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/licketysplit-20181010173413-deployment/amplify-cfn-templates/analytics/pinpoint-cloudformation-template.json",
 				"logicalId": "analyticslicketysplit"
 			},
-			"lastPushTimeStamp": "2018-10-11T14:54:12.585Z",
+			"lastPushTimeStamp": "2018-10-11T19:27:56.235Z",
 			"output": {
 				"appName": "licketysplit",
 				"Region": "us-east-1",
@@ -52,7 +52,7 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/licketysplit-20181010173413-deployment/amplify-cfn-templates/hosting/template.json",
 				"logicalId": "hostingS3AndCloudFront"
 			},
-			"lastPushTimeStamp": "2018-10-11T14:54:12.607Z",
+			"lastPushTimeStamp": "2018-10-11T19:27:56.240Z",
 			"output": {
 				"S3BucketSecureURL": "https://licketysplit-20181010180705--hostingbucket.s3.amazonaws.com",
 				"WebsiteURL": "http://licketysplit-20181010180705--hostingbucket.s3-website-us-east-1.amazonaws.com",
@@ -76,8 +76,8 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/licketysplit-20181010173413-deployment/amplify-cfn-templates/api/cloudformation-template.json",
 				"logicalId": "apilicketysplit"
 			},
-			"lastPushTimeStamp": "2018-10-11T14:54:15.014Z",
-			"lastPushDirHash": "Ybhwe4N52qyNmK37audeb/j5YTM="
+			"lastPushTimeStamp": "2018-10-11T19:27:57.219Z",
+			"lastPushDirHash": "jzudckCaoGY0qe8MIZ/xuve0xgc="
 		}
 	}
 }
