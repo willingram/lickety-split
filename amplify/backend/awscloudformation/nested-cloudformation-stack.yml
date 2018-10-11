@@ -123,6 +123,19 @@
 				"TemplateURL": "https://s3.amazonaws.com/licketysplit-20181010173413-deployment/amplify-cfn-templates/hosting/template.json",
 				"Parameters": {}
 			}
+		},
+		"apilicketysplit": {
+			"Type": "AWS::CloudFormation::Stack",
+			"Properties": {
+				"TemplateURL": "https://s3.amazonaws.com/licketysplit-20181010173413-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"Parameters": {
+					"AppSyncApiName": "licketysplit",
+					"schemaGraphql": "s3://licketysplit-20181010173413-deployment/amplify-appsync-files/schema.graphql.1539269439374",
+					"ResolverBucket": "licketysplit-20181010173413-deployment",
+					"ResolverRootKey": "amplify-appsync-files",
+					"DeploymentTimestamp": "1539269439374"
+				}
+			}
 		}
 	},
 	"Outputs": {

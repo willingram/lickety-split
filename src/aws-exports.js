@@ -8,7 +8,11 @@ const awsmobile =  {
     "aws_mobile_analytics_app_region": "us-east-1",
     "aws_content_delivery_bucket": "licketysplit-20181010180705--hostingbucket",
     "aws_content_delivery_bucket_region": "us-east-1",
-    "aws_content_delivery_url": "http://licketysplit-20181010180705--hostingbucket.s3-website-us-east-1.amazonaws.com"
+    "aws_content_delivery_url": "http://licketysplit-20181010180705--hostingbucket.s3-website-us-east-1.amazonaws.com",
+    "aws_appsync_graphqlEndpoint": "https://xscavx6ronacfb3vzs3anfnrri.appsync-api.us-east-1.amazonaws.com/graphql",
+    "aws_appsync_region": "us-east-1",
+    "aws_appsync_authenticationType": "API_KEY",
+    "aws_appsync_apiKey": "da2-ylzhastb6fgcnj3bomu5ui62ua"
 };
 
 

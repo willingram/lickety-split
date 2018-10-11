@@ -19,7 +19,7 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/licketysplit-20181010173413-deployment/amplify-cfn-templates/auth/cognito46a86dcd-cloudformation-template.yml",
 				"logicalId": "authcognito46a86dcd"
 			},
-			"lastPushTimeStamp": "2018-10-10T18:10:24.203Z",
+			"lastPushTimeStamp": "2018-10-11T14:54:12.574Z",
 			"output": {
 				"IdentityPoolId": "us-east-1:1ed9300d-a962-4322-8736-67fdc37b0fdb",
 				"IdentityPoolName": "licketysplit_identitypool_80c97a70"
@@ -35,7 +35,7 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/licketysplit-20181010173413-deployment/amplify-cfn-templates/analytics/pinpoint-cloudformation-template.json",
 				"logicalId": "analyticslicketysplit"
 			},
-			"lastPushTimeStamp": "2018-10-10T18:10:24.223Z",
+			"lastPushTimeStamp": "2018-10-11T14:54:12.585Z",
 			"output": {
 				"appName": "licketysplit",
 				"Region": "us-east-1",
@@ -52,7 +52,7 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/licketysplit-20181010173413-deployment/amplify-cfn-templates/hosting/template.json",
 				"logicalId": "hostingS3AndCloudFront"
 			},
-			"lastPushTimeStamp": "2018-10-10T18:10:24.257Z",
+			"lastPushTimeStamp": "2018-10-11T14:54:12.607Z",
 			"output": {
 				"S3BucketSecureURL": "https://licketysplit-20181010180705--hostingbucket.s3.amazonaws.com",
 				"WebsiteURL": "http://licketysplit-20181010180705--hostingbucket.s3-website-us-east-1.amazonaws.com",
@@ -60,6 +60,24 @@
 				"HostingBucketName": "licketysplit-20181010180705--hostingbucket"
 			},
 			"lastPushDirHash": "wuz4+M/dSAZjNtpMAtLcUvGw/Vo="
+		}
+	},
+	"api": {
+		"licketysplit": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"securityType": "API_KEY",
+				"GraphQLAPIIdOutput": "kdwxobremng6tjcgkargmi5h6u",
+				"GraphQLAPIEndpointOutput": "https://xscavx6ronacfb3vzs3anfnrri.appsync-api.us-east-1.amazonaws.com/graphql",
+				"GraphQLAPIKeyOutput": "da2-ylzhastb6fgcnj3bomu5ui62ua"
+			},
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/licketysplit-20181010173413-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"logicalId": "apilicketysplit"
+			},
+			"lastPushTimeStamp": "2018-10-11T14:54:15.014Z",
+			"lastPushDirHash": "Ybhwe4N52qyNmK37audeb/j5YTM="
 		}
 	}
 }
