@@ -6,21 +6,27 @@ import './App.css';
 // import { Api, graphqlOperation } from '@aws-amplify/api';
 import { listTodos } from './graphql/queries';
 import { createTodo } from './graphql/mutations';
+import { onCreateTodo } from './graphql/subscriptions';
 import awsconfig from './aws-exports';
-import { API, graphqlOperation, Auth, Analytics } from 'aws-amplify';
+import Amplify, { API, graphqlOperation, Auth, Analytics } from 'aws-amplify';
 
-// retrieve temporary AWS credentials and sign requests
-Auth.configure(awsconfig);
-// send analytics events to Amazon Pinpoint
-Analytics.configure(awsconfig);
-// config api
-API.configure(awsconfig);
+// // retrieve temporary AWS credentials and sign requests
+// Auth.configure(awsconfig);
+// // send analytics events to Amazon Pinpoint
+// Analytics.configure(awsconfig);
+// // config api
+// API.configure(awsconfig);
+
+Amplify.configure(awsconfig);
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.handleAnalyticsClick = this.handleAnalyticsClick.bind(this);
     this.state = { analyticsEventSent: false, resultHtml: '', eventsSent: 0 };
+    const subscription = API.graphql(graphqlOperation(onCreateTodo)).subscribe({
+      next: eventData => console.log('subscription', eventData),
+    });
   }
 
   handleAnalyticsClick() {
@@ -54,6 +60,7 @@ class App extends Component {
   createMutation = async () => {
     const todoDetails = {
       input: {
+        // id: String(new Date().getTime()),
         name: 'Party tonight!',
         description: 'Amplify CLI rocks!',
         newProp: 'bob',
