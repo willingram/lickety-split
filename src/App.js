@@ -30,7 +30,7 @@ class App extends Component {
   }
 
   handleAnalyticsClick() {
-    Analytics.record('AWS Amplify Tutorial Event').then(evt => {
+    Analytics.record('AWS Amplify Tutorial Event').then(event => {
       const url =
         'https://console.aws.amazon.com/pinpoint/home/?region=us-east-1#/apps/' +
         awsconfig.aws_mobile_analytics_app_id +
